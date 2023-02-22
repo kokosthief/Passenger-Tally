@@ -1,47 +1,44 @@
-.container1 {
-    min-height: 100vh;
-    max-width: 440px;
+body {
+    font-family: helvetica;
     background-color: #E2E8F1;
-}
-.container2 {
-    width: auto;
+    width: 400px;
     margin: auto;
-    padding: 20px;
 }
-.container3 {
+
+.container1 {
+    text-align: center;
+    margin:20px;
     background-color: white;
-    padding: 10px;
-    border-radius: 0.375rem;
+    padding: 20px;
+    border-radius: 0.775rem;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
-.first-text-box {
-    width: auto;    
+.container2 {
+    padding: 5px;
+    margin-top: 10px;
+    border-width: 1px;
+}
+
+.first-text-box { 
     background-color: rgb(125 211 252);
     padding: 5px; 
     display: flex;
-    align-items: center;
     font-size: 12px;
     margin-bottom: -10px;
+    border-radius: 0.375rem;
+
 }
 .counter {
-    	font-weight: 700;
-        margin-top: 20px;
-}
-.container4 {
-    justify-items: center;
-    flex-wrap: wrap;
-    padding: 5px;
-    margin-top: 10px;
-    justify-content: space-between;
-    border-width: 1px;
-    align-content: center;
-    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
 }
 
 h1 {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 22px;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 90, 255);
 }
 h3 {
     font-weight: 700;
@@ -52,18 +49,18 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5px;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;    
 }
 .buttons {
+    cursor: pointer;
     padding: 7px;
     width: 100%;
     background-color: rgb(67 56 202);
     outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
-  color: white;
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    outline: 5px auto -webkit-focus-ring-color;
+    filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+    color: white;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
 .increment-btn {
@@ -75,12 +72,9 @@ h3 {
     width: 40%;
 }
 .tally {
-    justify-items: center;
     flex-wrap: wrap;
     padding: 5px;
     margin-top: 10px;
     justify-content: space-between;
     border-width: 1px;
-    align-content: center;
-    text-align: center;
 }
